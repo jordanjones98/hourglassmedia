@@ -20,3 +20,17 @@ Processing by PagesController#index as HTML
 Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2016-12-28 01:09:29 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 36ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-28 01:09:30 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 29ms (Views: 27.5ms | ActiveRecord: 0.0ms)
+
+
