@@ -1,0 +1,15 @@
+//  *= require_tree .
+//  *= require_self
+@import "utilities/fontawesome";
+
+
+
+body {
+  margin: 0px;
+  width: 100%;
+  background-color: color-light;
+}
+
+.center-text {
+  text-align: center;
+}

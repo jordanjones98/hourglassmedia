@@ -1,3 +1,74 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import "utilities/variables";
+
+.flex-container-employee {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: $color-light-blue;
+  min-height: 100%;
+  flex-direction: row;
+}
+
+.flex-item-employee {
+  width: 200px;
+  height: 150px;
+  margin: 75px;
+  color: $color-light;
+  text-align: center;
+  margin-top: 15px;
+  font-family: $font-stack;
+  height: 30%;
+}
+
+img {
+  border-radius: 100px;
+  height: 150px;
+  width: 150px;
+}
+
+div.who {
+  height: 400px;
+
+  h1 {
+    font-family: $font-stack;
+    padding-top: 40px;
+  }
+
+  p {
+    font-family: $font-stack;
+    font-weight: lighter;
+  }
+
+  img {
+    float: left;
+  }
+}
+
+.flex-container-who {
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $color-light;
+  flex-direction: row;
+  min-height: 100%
+}
+
+.flex-item-who-text {
+  width: 50%;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 25%
+}
