@@ -74,7 +74,8 @@ div.who {
 .header {
   margin: 0px;
   padding: 0px;
-  background-color: $color-light-blue-background;
+  // background-color: $color-light-blue-background;
+  background-image: url(headerBackground.png);
   display: inline-block;
 
   p {
@@ -99,4 +100,60 @@ div.who {
   img.header-image {
     z-index: 1;
   }
+}
+
+.contact-section {
+  background-color: $color-light-blue;
+
+  h1.contact-header {
+    font-family: $font-stack;
+    padding-top: 20px;
+  }
+
+  .flex-container-contact {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+
+    .flex-container-contact-child {
+      width: 45%;
+    }
+
+    .contact-link {
+      padding-left: 80px;
+    }
+  }
+}
+
+div.services-section {
+
+  margin-bottom: 35px;
+
+  h1 {
+    font-family: $font-stack;
+  }
+
+  p {
+    font-family: $font-stack;
+  }
+
+  .flex-container-services {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    .flex-child-services {
+      width: 250px;
+      margin: 50px;
+      margin-top: 50px;
+      margin-bottom: 0px;
+    }
+  }
+}
+
+.image-wrap {
+  background-color: $color-light-blue;
+  radius: 50px;
 }
