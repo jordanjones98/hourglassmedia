@@ -24,21 +24,27 @@
 
 <div class="employee-section">
   <div class="flex-container-employee">
-    <div class="flex-item-employee">
-      <h2 class="name">James Base</h2>
-      <p class="bio">Marketer</p>
-      <%= link_to image_tag('james.jpg') %>
-    </div>
-    <div class="flex-item-employee">
-      <h2 class="name">Jordan Jones</h2>
-      <p class="bio">Developer</p>
-      <%= link_to image_tag('jordan.jpg') %>
-    </div>
-    <div class="flex-item-employee">
-      <h2 class="name">Mariano Avila</h2>
-      <p class="bio">Ux Designer</p>
-      <%= link_to image_tag('mariano.jpg') %>
-    </div>
+    <a class="name-link" href="/james">
+      <div class="flex-item-employee">
+        <h2 class="name">James Base</h2>
+        <p class="bio">Marketer</p>
+        <%= link_to image_tag('james.jpg') %>
+      </div>
+    </a>
+    <a class="name-link" href="/jordan">
+      <div class="flex-item-employee">
+        <h2 class="name">Jordan Jones</h2>
+        <p class="bio">Developer</p>
+        <%= link_to image_tag('jordan.jpg') %>
+      </div>
+    </a>
+    <a class="name-link" href="/mariano">
+      <div class="flex-item-employee">
+        <h2 class="name">Mariano Avila</h2>
+        <p class="bio">Ux Designer</p>
+        <%= link_to image_tag('mariano.jpg') %>
+      </div>
+    </a>
   </div>
 </div>
 

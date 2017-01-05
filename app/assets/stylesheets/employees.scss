@@ -1,0 +1,22 @@
+// Place all the styles related to the employees controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "utilities/variables";
+body {
+  background-color: $color-light-blue-background;
+  font-family: $font-stack;
+}
+
+h1.name {
+
+}
+
+p.bio {
+  width: 30%;
+  margin-left: 150px;
+}
+
+.headshot {
+  radius: 50px;
+  height: 100px;
+}

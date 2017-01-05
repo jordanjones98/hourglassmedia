@@ -3,6 +3,33 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import "utilities/variables";
 
+.header {
+  margin: 0px;
+  padding: 0px;
+  background-color: $color-light-blue-background;
+  display: inline-block;
+
+  p {
+    font-family: $font-stack-bungee;
+    font-size: 40px;
+    padding: 110px;
+    padding-top: 90px;
+    text-align: center;
+    opacity: .5;
+  }
+
+  nav {
+    float: left;
+
+    li {
+      display: inline;
+      font-family: $font-stack;
+      font-weight: lighter;
+    }
+  }
+}
+
+
 .flex-container-employee {
   padding: 0;
   margin: 0;
@@ -30,8 +57,20 @@
     margin-top: 15px;
     font-family: $font-stack;
     height: 30%;
+
+    .name-link {
+      text-decoration: none;
+      color: white;
+
+      h2.name {
+      }
+
+      p.bio {
+      }
+    }
   }
 }
+
 
 div.who {
 
@@ -71,63 +110,10 @@ div.who {
   margin-right: auto;
 }
 
-.header {
-  margin: 0px;
-  padding: 0px;
-  // background-color: $color-light-blue-background;
-  background-image: url(headerBackground.png);
-  display: inline-block;
-
-  p {
-    font-family: $font-stack-bungee;
-    font-size: 40px;
-    padding: 110px;
-    padding-top: 90px;
-    text-align: center;
-    opacity: .5;
-  }
-
-  nav {
-    float: left;
-
-    li {
-      display: inline;
-      font-family: $font-stack;
-      font-weight: lighter;
-    }
-  }
-
-  img.header-image {
-    z-index: 1;
-  }
-}
-
-.contact-section {
-  background-color: $color-light-blue;
-
-  h1.contact-header {
-    font-family: $font-stack;
-    padding-top: 20px;
-  }
-
-  .flex-container-contact {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-
-    .flex-container-contact-child {
-      width: 45%;
-    }
-
-    .contact-link {
-      padding-left: 80px;
-    }
-  }
-}
-
 div.services-section {
 
   margin-bottom: 35px;
+  width: 100%;
 
   h1 {
     font-family: $font-stack;
@@ -149,6 +135,37 @@ div.services-section {
       margin: 50px;
       margin-top: 50px;
       margin-bottom: 0px;
+    }
+  }
+}
+
+.contact-section {
+  background-color: $color-light-blue;
+
+  h1.contact-header {
+    font-family: $font-stack;
+    padding-top: 20px;
+  }
+
+  .flex-container-contact {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+
+    .flex-container-contact-child {
+      width: 45%;
+
+      p {
+        font-family: $font-stack;
+      }
+
+      a {
+        text-decoration: none;
+      }
+    }
+
+    .contact-link {
+      padding-left: 80px;
     }
   }
 }
