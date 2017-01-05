@@ -16001,3 +16001,338 @@ Processing by EmployeesController#jordan as HTML
 Completed 200 OK in 1576ms (Views: 1573.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2017-01-04 21:55:54 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 48ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 21:56:36 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 1753ms (Views: 1751.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 21:56:50 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 1628ms (Views: 1626.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 21:56:58 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 1428ms (Views: 1426.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 21:58:05 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 2190ms (Views: 2188.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jordan" for ::1 at 2017-01-04 21:58:43 -0600
+Processing by EmployeesController#jordan as HTML
+  Rendering employees/jordan.html.erb within layouts/employees
+  Rendered employees/jordan.html.erb within layouts/employees (1.9ms)
+Completed 200 OK in 32ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jordan" for ::1 at 2017-01-04 22:00:01 -0600
+Processing by EmployeesController#jordan as HTML
+  Rendering employees/jordan.html.erb within layouts/employees
+  Rendered employees/jordan.html.erb within layouts/employees (2.1ms)
+Completed 200 OK in 1408ms (Views: 1406.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jordan" for ::1 at 2017-01-04 22:00:21 -0600
+Processing by EmployeesController#jordan as HTML
+  Rendering employees/jordan.html.erb within layouts/employees
+  Rendered employees/jordan.html.erb within layouts/employees (2.6ms)
+Completed 200 OK in 1482ms (Views: 1480.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jordan" for ::1 at 2017-01-04 22:00:24 -0600
+Processing by EmployeesController#jordan as HTML
+  Rendering employees/jordan.html.erb within layouts/employees
+  Rendered employees/jordan.html.erb within layouts/employees (2.8ms)
+Completed 200 OK in 29ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jordan" for ::1 at 2017-01-04 22:00:48 -0600
+Processing by EmployeesController#jordan as HTML
+  Rendering employees/jordan.html.erb within layouts/employees
+  Rendered employees/jordan.html.erb within layouts/employees (3.4ms)
+Completed 200 OK in 1401ms (Views: 1399.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jordan" for ::1 at 2017-01-04 22:01:24 -0600
+Processing by EmployeesController#jordan as HTML
+  Rendering employees/jordan.html.erb within layouts/employees
+  Rendered employees/jordan.html.erb within layouts/employees (2.0ms)
+Completed 200 OK in 31ms (Views: 28.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jordan" for ::1 at 2017-01-04 22:01:57 -0600
+Processing by EmployeesController#jordan as HTML
+  Rendering employees/jordan.html.erb within layouts/employees
+  Rendered employees/jordan.html.erb within layouts/employees (2.3ms)
+Completed 200 OK in 1416ms (Views: 1414.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jordan" for ::1 at 2017-01-04 22:02:15 -0600
+Processing by EmployeesController#jordan as HTML
+  Rendering employees/jordan.html.erb within layouts/employees
+  Rendered employees/jordan.html.erb within layouts/employees (2.3ms)
+Completed 200 OK in 1461ms (Views: 1459.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jordan" for ::1 at 2017-01-04 22:02:30 -0600
+Processing by EmployeesController#jordan as HTML
+  Rendering employees/jordan.html.erb within layouts/employees
+  Rendered employees/jordan.html.erb within layouts/employees (2.0ms)
+Completed 200 OK in 1508ms (Views: 1506.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jordan" for ::1 at 2017-01-04 22:02:53 -0600
+Processing by EmployeesController#jordan as HTML
+  Rendering employees/jordan.html.erb within layouts/employees
+  Rendered employees/jordan.html.erb within layouts/employees (2.2ms)
+Completed 200 OK in 1384ms (Views: 1382.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jordan" for ::1 at 2017-01-04 22:03:01 -0600
+Processing by EmployeesController#jordan as HTML
+  Rendering employees/jordan.html.erb within layouts/employees
+  Rendered employees/jordan.html.erb within layouts/employees (2.1ms)
+Completed 200 OK in 27ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jordan" for ::1 at 2017-01-04 22:04:27 -0600
+Processing by EmployeesController#jordan as HTML
+  Rendering employees/jordan.html.erb within layouts/employees
+  Rendered employees/jordan.html.erb within layouts/employees (1.6ms)
+Completed 500 Internal Server Error in 94ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Undefined variable: "$color-light".):
+     7:     <meta name="viewport" content="width=device-width"/>
+     8:     <%= csrf_meta_tags %>
+     9: 
+    10:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    11:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    12:     <%= favicon_link_tag 'favicon.ico' %>
+    13:   </head>
+  
+app/assets/stylesheets/application.css.scss:10
+app/views/layouts/employees.html.erb:10:in `_app_views_layouts_employees_html_erb___3900594993429697255_70268729801720'
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.6ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (61.5ms)
+Started GET "/jordan" for ::1 at 2017-01-04 22:04:45 -0600
+Processing by EmployeesController#jordan as HTML
+  Rendering employees/jordan.html.erb within layouts/employees
+  Rendered employees/jordan.html.erb within layouts/employees (1.6ms)
+Completed 200 OK in 835ms (Views: 833.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jordan" for ::1 at 2017-01-04 22:05:28 -0600
+Processing by EmployeesController#jordan as HTML
+  Rendering employees/jordan.html.erb within layouts/employees
+  Rendered employees/jordan.html.erb within layouts/employees (2.0ms)
+Completed 200 OK in 1379ms (Views: 1377.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jordan" for ::1 at 2017-01-04 22:05:37 -0600
+Processing by EmployeesController#jordan as HTML
+  Rendering employees/jordan.html.erb within layouts/employees
+  Rendered employees/jordan.html.erb within layouts/employees (1.9ms)
+Completed 200 OK in 1424ms (Views: 1422.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jordan" for ::1 at 2017-01-04 22:10:05 -0600
+Processing by EmployeesController#jordan as HTML
+  Rendering employees/jordan.html.erb within layouts/employees
+  Rendered employees/jordan.html.erb within layouts/employees (2.0ms)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jordan" for ::1 at 2017-01-04 22:10:55 -0600
+Processing by EmployeesController#jordan as HTML
+  Rendering employees/jordan.html.erb within layouts/employees
+  Rendered employees/jordan.html.erb within layouts/employees (1.6ms)
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jordan" for ::1 at 2017-01-04 22:10:57 -0600
+Processing by EmployeesController#jordan as HTML
+  Rendering employees/jordan.html.erb within layouts/employees
+  Rendered employees/jordan.html.erb within layouts/employees (1.6ms)
+Completed 200 OK in 23ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jordan" for ::1 at 2017-01-04 22:11:01 -0600
+Processing by EmployeesController#jordan as HTML
+  Rendering employees/jordan.html.erb within layouts/employees
+  Rendered employees/jordan.html.erb within layouts/employees (1.8ms)
+Completed 200 OK in 1405ms (Views: 1403.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jordan" for ::1 at 2017-01-04 22:11:17 -0600
+Processing by EmployeesController#jordan as HTML
+  Rendering employees/jordan.html.erb within layouts/employees
+  Rendered employees/jordan.html.erb within layouts/employees (2.5ms)
+Completed 200 OK in 1465ms (Views: 1463.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jordan" for ::1 at 2017-01-04 22:11:24 -0600
+Processing by EmployeesController#jordan as HTML
+  Rendering employees/jordan.html.erb within layouts/employees
+  Rendered employees/jordan.html.erb within layouts/employees (1.9ms)
+Completed 200 OK in 1433ms (Views: 1431.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jordan" for ::1 at 2017-01-04 22:11:39 -0600
+Processing by EmployeesController#jordan as HTML
+  Rendering employees/jordan.html.erb within layouts/employees
+  Rendered employees/jordan.html.erb within layouts/employees (2.0ms)
+Completed 200 OK in 1492ms (Views: 1490.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jordan" for ::1 at 2017-01-04 22:11:48 -0600
+Processing by EmployeesController#jordan as HTML
+  Rendering employees/jordan.html.erb within layouts/employees
+  Rendered employees/jordan.html.erb within layouts/employees (2.2ms)
+Completed 200 OK in 1387ms (Views: 1385.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jordan" for ::1 at 2017-01-04 22:12:04 -0600
+Processing by EmployeesController#jordan as HTML
+  Rendering employees/jordan.html.erb within layouts/employees
+  Rendered employees/jordan.html.erb within layouts/employees (1.7ms)
+Completed 200 OK in 1400ms (Views: 1398.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jordan" for ::1 at 2017-01-04 22:12:16 -0600
+Processing by EmployeesController#jordan as HTML
+  Rendering employees/jordan.html.erb within layouts/employees
+  Rendered employees/jordan.html.erb within layouts/employees (2.2ms)
+Completed 200 OK in 1483ms (Views: 1481.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jordan" for ::1 at 2017-01-04 22:13:04 -0600
+Processing by EmployeesController#jordan as HTML
+  Rendering employees/jordan.html.erb within layouts/employees
+  Rendered employees/jordan.html.erb within layouts/employees (2.1ms)
+Completed 200 OK in 1453ms (Views: 1452.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jordan" for ::1 at 2017-01-04 22:14:13 -0600
+Processing by EmployeesController#jordan as HTML
+  Rendering employees/jordan.html.erb within layouts/employees
+  Rendered employees/jordan.html.erb within layouts/employees (2.4ms)
+Completed 200 OK in 27ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jordan" for ::1 at 2017-01-04 22:14:41 -0600
+Processing by EmployeesController#jordan as HTML
+  Rendering employees/jordan.html.erb within layouts/employees
+  Rendered employees/jordan.html.erb within layouts/employees (1.8ms)
+Completed 200 OK in 26ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jordan" for ::1 at 2017-01-04 22:15:04 -0600
+Processing by EmployeesController#jordan as HTML
+  Rendering employees/jordan.html.erb within layouts/employees
+  Rendered employees/jordan.html.erb within layouts/employees (1.7ms)
+Completed 200 OK in 22ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jordan" for ::1 at 2017-01-04 22:15:05 -0600
+Processing by EmployeesController#jordan as HTML
+  Rendering employees/jordan.html.erb within layouts/employees
+  Rendered employees/jordan.html.erb within layouts/employees (2.3ms)
+Completed 200 OK in 25ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jordan" for ::1 at 2017-01-04 22:15:20 -0600
+Processing by EmployeesController#jordan as HTML
+  Rendering employees/jordan.html.erb within layouts/employees
+  Rendered employees/jordan.html.erb within layouts/employees (1.5ms)
+Completed 200 OK in 22ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 23:09:03 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 36ms (Views: 35.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 23:09:06 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 34ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 23:09:16 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 1618ms (Views: 1616.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 23:09:54 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 44ms (Views: 42.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 23:10:24 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 41ms (Views: 39.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 23:12:08 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 42ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 23:12:24 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 34ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 23:12:47 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 1041ms (Views: 1038.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-04 23:14:04 -0600
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 51ms (Views: 49.3ms | ActiveRecord: 0.0ms)
+
+

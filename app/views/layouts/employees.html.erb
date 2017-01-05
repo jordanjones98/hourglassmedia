@@ -13,10 +13,18 @@
   </head>
 
   <body>
-    <h1 class="center-text"><%= yield(:name) %></h1>
+    <div class="bio-wrapper">
+      <div class="bio-child">
+        <h1 class="center-text bio-name"><%= yield(:name) %></h1>
+      </div>
 
-    <p class="bio"><%= yield(:bio) %></p>
+      <div class="bio-child">
+        <p class="bio"><%= yield(:bio) %></p>
+      </div>
 
-    <%= yield %>
+      <div class="bio-child">
+        <%= yield %>
+      </div>
+    </div>
   </body>
 </html>

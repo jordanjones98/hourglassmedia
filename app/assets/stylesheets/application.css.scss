@@ -1,13 +1,14 @@
 //  *= require_tree .
 //  *= require_self
 @import "utilities/fontawesome";
+@import "utilities/variables";
 
 
 
 body {
   margin: 0px;
   width: 100%;
-  background-color: color-light;
+  background-color: $color-light;
 }
 
 .center-text {

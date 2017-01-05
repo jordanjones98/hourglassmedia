@@ -1,10 +1,4 @@
 Rails.application.routes.draw do
-  get 'employees/jordan'
-
-  get 'employees/mariano'
-
-  get 'employees/james'
-
   get 'pages/index'
 
   root 'pages#index'
