@@ -5,14 +5,17 @@
 
 .header {
   margin: 0px;
-  padding: 0px;
+  // padding: 0px;
   background-color: $color-light-blue-background;
   display: inline-block;
+  height: 300px;
 
   p {
     font-family: $font-stack-bungee;
     font-size: 40px;
-    padding: 110px;
+    // padding-left: 25%;
+    // padding-right: 25%;
+    padding-bottom: 45px;
     padding-top: 90px;
     text-align: center;
     opacity: .5;
@@ -67,6 +70,10 @@
 
       p.title {
       }
+    }
+
+    p.bio {
+      padding-top: 15px;
     }
   }
 }
@@ -137,7 +144,7 @@ div.services-section {
       margin-bottom: 0px;
       transition: all .2s ease-in-out;
       padding: 5px;
-      radius: 5px;
+      border-radius: 2px;
     }
 
     .flex-child-services:hover {
@@ -155,6 +162,7 @@ div.services-section {
   h1.contact-header {
     font-family: $font-stack;
     padding-top: 20px;
+    padding-left: 15%;
   }
 
   .flex-container-contact {
@@ -163,7 +171,7 @@ div.services-section {
     align-items: baseline;
 
     .flex-container-contact-child {
-      width: 45%;
+      width: 100%;
 
       p {
         font-family: $font-stack;
@@ -175,12 +183,51 @@ div.services-section {
     }
 
     .contact-link {
-      padding-left: 80px;
+      padding-left: 15%;
+
+      h2 {
+        font-family: $font-stack;
+      }
     }
   }
 }
-
-.image-wrap {
+.made-with-love {
+  display: flex;
+  font-family: $font-stack;
   background-color: $color-light-blue;
-  radius: 50px;
+  justify-content: center;
+
+  .made-with-love-child {
+    font-size: .5em;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+    .flex-container-contact-child {
+        justify-content: center;
+    }
+
+    .contact-link {
+      padding-right: 15%;
+    }
+
+    h1.contact-header {
+      padding-right: 15%;
+    }
+
+    .flex-container-contact {
+      width: 100%;
+    }
+
+    .header {
+
+      p {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+    }
 }

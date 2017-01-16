@@ -1,6 +1,6 @@
 class MessageMailer < ActionMailer::Base
 
-  default from: "hi@hourglassmedia.io"
+  default from: "jordan@hourglassmedia.io"
   default to: "hi@hourglassmedia.io"
 
   def new_message(message)
